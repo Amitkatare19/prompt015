@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <video autoplay loop muted plays-inline src="main.mp4"></video>
+
+      <div class="box">
+        <h1>Trygone Gallaxy</h1>
+        <p>
+          Embark on a journey beyond the stars. Where will the cosmos take you?
+        </p>
+            <form action="">
+                <div class="place">
+                    <div class="start">
+                        <label for="">Departure Planet</label>
+                        <select name="" id="" required>
+                            <option value="">Select your launch pad</option>
+                            <option value="earth">Earth Prime</option>
+                            <option value="mars">Mars Colony</option>
+                            <option value="moon">Lunar Base Alpha</option>
+                            <option value="titan">Titan Outpost</option>
+                        </select>
+                    </div>
+                    <div class="end">
+                        <label for="">Destination</label>
+                        <select name="" id="" required>
+                            <option value="">Choose your cosmic destination</option>
+                            <option value="andromeda">Andromeda Resort</option>
+                            <option value="blackhole">Event Horizon Observatory</option>
+                            <option value="nebula">Orion's Belt Spa</option>
+                            <option value="exoplanet">Kepler-186f Beach</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="place">
+                    <div class="start" >
+                        <label for="" >Departure Stardate</label>
+                        <input type="date" required>
+                    </div>
+                    <div class="end">
+                        <label for="" >Return Stardate</label>
+                        <input type="date" required>
+                    </div>
+                </div>
+                <div class="travel">
+                    <div class="start">
+                        <label for="">Travel Class</label>
+                        <select name="" id="" style="width: 820px;" required>
+                            <option value="">Select your cosmic comfort level</option>
+                            <option value="economy">Stardust (Economy)</option>
+                            <option value="business">Nebula (Business)</option>
+                            <option value="first">Supernova (First Class)</option>
+                            <option value="luxury">Quantum Luxury Pod</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="travel" style="margin-top: 30px;">
+                    <div class="start">
+                        <label for="">Number of Space Travelers</label>
+                        <input type="number" name="" id="" placeholder="How many are joining this cosmic adventure? " min="1" max="10" style="width: 820px;">
+                    </div>
+                </div>
+                <button style="width: 820px; margin-top: 20px; cursor: pointer; background-color: rgb(177, 66, 199);  color: black; font-size: 18px;  margin-bottom: 10px;"> Initiate Trygone Journey</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
